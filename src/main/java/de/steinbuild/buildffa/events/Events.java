@@ -7,7 +7,7 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 
 
-public class ProtectionEvents implements Listener {
+public class Events implements Listener {
     @EventHandler
     public void onbreak(BlockBreakEvent breakevent) {
 

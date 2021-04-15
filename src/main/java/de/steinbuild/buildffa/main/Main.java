@@ -1,9 +1,9 @@
 package de.steinbuild.buildffa.main;
 
-import de.steinbuild.buildffa.events.ProtectionEvents;
+
+import de.steinbuild.buildffa.events.Events;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.util.Java15Compat;
 
 public class Main extends JavaPlugin {
     public static Main plugin;
@@ -16,7 +16,7 @@ public class Main extends JavaPlugin {
     }
 
     private void registerEvents() {
-        Bukkit.getPluginManager().registerEvents(new ProtectionEvents(),this);
+        Bukkit.getPluginManager().registerEvents(new Events(),this);
 
     }
 
